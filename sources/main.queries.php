@@ -300,7 +300,7 @@ switch ($_POST['type']) {
 	    			    'ga' => $gaSecretKey
 	    			   ),
 	    			"id = %i",
-                    $_POST['id']
+                    $data['id']
     			);
 
     			// generate QR url
